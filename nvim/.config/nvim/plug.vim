@@ -7,9 +7,10 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+    Plug 'nvim-treesitter/playground'
     " Primeagen stuff
     Plug 'ThePrimeagen/harpoon'
-    Plug 'gruvbox-community/gruvbox'
+    Plug 'marko-cerovac/material.nvim'
     Plug 'mbbill/undotree'
     Plug 'tpope/vim-surround'
     Plug 'tpope/vim-commentary'

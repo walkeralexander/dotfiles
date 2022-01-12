@@ -40,6 +40,3 @@ let g:netrw_browse_split = 2
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
 let g:ctrlp_use_caching = 0
-
-" get those darn comments to be italic
-highlight Comment cterm=italic gui=italic 
