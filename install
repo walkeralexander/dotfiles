@@ -1,4 +1,11 @@
 #!/usr/bin/env zsh
+
+# install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# install .oh-my-zsh 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 for folder in $(ls -d */)
 do
     stow -t ~ -D $folder
