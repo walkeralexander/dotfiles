@@ -18,7 +18,7 @@ nnoremap <leader>gd :lua vim.lsp.buf.definition()<CR>
 nnoremap <leader>gi :lua vim.lsp.buf.implementation()<CR>
 nnoremap <C-k> :lua vim.lsp.buf.signature_help()<CR>
 nnoremap <leader>gr :lua vim.lsp.buf.references()<CR>
-nnoremap <leader>e :lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
+nnoremap <leader>e :lua vim.diagnostic.open_float()<CR>
 nnoremap <leader>f :lua vim.lsp.buf.formatting()<CR>
 
 nnoremap <leader>ha :lua require("harpoon.mark").add_file()<CR>
