@@ -10,40 +10,28 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'nvim-treesitter/playground'
     " Primeagen stuff
     Plug 'ThePrimeagen/harpoon'
-    Plug 'marko-cerovac/material.nvim'
     Plug 'mbbill/undotree'
     Plug 'tpope/vim-surround'
     Plug 'tpope/vim-commentary'
-    " I dislike docstrings from scratch. I strongly prefer dogs. Easy choice. 
-    Plug 'neovim/nvim-lspconfig'
+    Plug 'tpope/vim-fugitive'
     " PLEASE give me autocomplete
+    Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/nvim-cmp'
     Plug 'hrsh7th/cmp-nvim-lsp'
     Plug 'hrsh7th/cmp-buffer'
     Plug 'hrsh7th/cmp-path'
     Plug 'hrsh7th/cmp-nvim-lua'
     Plug 'hrsh7th/cmp-cmdline'
+    Plug 'L3MON4D3/LuaSnip'
+    Plug 'saadparwaiz1/cmp_luasnip'
     Plug 'onsails/lspkind-nvim'
     Plug 'folke/lsp-colors.nvim'
     " Colors
-    Plug 'rktjmp/lush.nvim'
     Plug 'sainnhe/everforest'
-    Plug 'theniceboy/nvim-deus'
-    Plug 'shaunsingh/nord.nvim'
     " Snip Snip biatch
-    Plug 'hrsh7th/vim-vsnip'
     Plug 'sbdchd/neoformat'
     " Hmmm, airline?
     Plug 'nvim-lualine/lualine.nvim'
     Plug 'kyazdani42/nvim-web-devicons'
-    " PLEASE WORK
-    Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
-    " I really just need a haircut like TPOPE's.
-    Plug 'tpope/vim-fugitive'
-    " GLOW up your markdown
-    Plug 'ellisonleao/glow.nvim'
-    Plug 'godlygeek/tabular'
-    Plug 'elzr/vim-json'
-    Plug 'plasticboy/vim-markdown'
 call plug#end()
 

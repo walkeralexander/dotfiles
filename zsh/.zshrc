@@ -125,5 +125,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+alias rbrew=/usr/local/bin/brew
+
 
 source ~/.config/zsh/.zsh-theme-everforest-dark
